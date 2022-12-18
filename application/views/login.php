@@ -26,7 +26,7 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-palette-1-base u-header" id="sec-3f2e"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="260" data-image-height="38">
+        <a href="#" class="u-image u-logo u-image-1" data-image-width="260" data-image-height="38">
           <img src="./asset/images/MyStockPart.png" class="u-logo-image u-logo-image-1">
         </a>
       </div></header>

@@ -1,7 +1,7 @@
 .u-section-1 .u-sheet-1 {
   min-height: 31px;
 } .u-section-2 {
-  min-height: 50vw;
+  min-height: 100vh;
 }
 
 .u-section-2 .u-group-1 {
@@ -54,7 +54,7 @@
 .u-section-2 .u-image-1 {
   width: 439px;
   height: 346px;
-  margin: -206px 0 14px auto;
+  margin: -206px 0 0 auto;
 }
 
 @media (max-width: 1199px) {
