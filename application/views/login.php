@@ -33,13 +33,10 @@
     <section class="u-clearfix u-palette-1-light-1 u-section-1" id="sec-71dc">
       <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
-
     <section class="u-clearfix u-white u-section-2" id="sec-f553">
       <div class="u-border-3 u-border-palette-1-base u-container-style u-group u-group-1">
         <div class="u-container-layout u-container-layout-1">
           <div class="u-form u-login-control u-form-1">
-          <?php echo $this->session->flashdata('message'); ?>
-          <?php echo form_open(); ?>
             <form action="#" method="post" class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 0px;">
               <div class="u-form-group u-form-name">
                 <label for="username-a30d" class="u-label u-text-grey-25 u-label-1">Username *</label>
@@ -64,6 +61,4 @@
       </div>
       <img class="u-image u-image-default u-image-1" src="./asset/images/undraw_order_delivered_re_v4ab1.png" alt="" data-image-width="503" data-image-height="396">
     </section>
-    
-  
 </body></html>
