@@ -26,7 +26,23 @@ class MyStockPart extends CI_Controller{
 
     public function add_new_part()
     {
+        
         $this->load->view('add_new_part');
+    }
+
+    public function add_old_part()
+    {
+        $this->load->view('add_old_part');
+    }
+
+    public function cek_persediaan()
+    {
+        $this->load->view('cek_persediaan');
+    }
+
+    public function part_keluar()
+    {
+        $this->load->view('part_keluar');
     }
 
 }
