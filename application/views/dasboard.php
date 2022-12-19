@@ -57,7 +57,7 @@
           <h4 class="u-text u-text-default u-text-1">Admin<br>
           </h4>
           <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="./asset/images/Group271.png" alt="" data-image-width="175" data-image-height="175">
-          <a href="./asset/login.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-1">LOGOUT</a>
+          <a href="<?php echo site_url('login'); ?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-1">LOGOUT</a>
         </div>
       </div>
       <img class="u-image u-image-default u-preserve-proportions u-image-2" src="./asset/images/Group30.png" alt="" data-image-width="224" data-image-height="167">
@@ -65,9 +65,9 @@
       <img class="u-image u-image-default u-preserve-proportions u-image-4" src="./asset/images/Group28.png" alt="" data-image-width="224" data-image-height="172">
       <img class="u-image u-image-default u-preserve-proportions u-image-5" src="./asset/images/Group31.png" alt="" data-image-width="224" data-image-height="172">
       <a href="#sec-147c" class="u-border-2 u-border-grey-75 u-btn u-button-style u-dialog-link u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-2">tambah stok</a>
-      <a href="./asset/Cek_persediaan.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-3">cek persediaan</a>
+      <a href="<?php echo site_url('cek_persediaan/'); ?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-3">cek persediaan</a>
       <a href="#sec-b688" class="u-border-2 u-border-grey-75 u-btn u-button-style u-dialog-link u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-4">laporan</a>
-      <a href="./asset/Input_part_keluar.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-5">part keluar</a>
+      <a href="<?php echo site_url('part_keluar/');?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-5">part keluar</a>
     </section>
     
     
@@ -77,8 +77,8 @@
   <section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-middle u-dialog-section-6" id="sec-147c">
       <div class="u-align-center u-container-style u-dialog u-palette-1-light-2 u-dialog-1">
         <div class="u-container-layout u-container-layout-1">
-          <a href="./asset/Tambah_part_lama.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">part lama</a>
-          <a href="./asset/Tambah_part_baru.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2">part baru</a>
+          <a href="<?php echo site_url('add_new_part/'); ?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">part lama</a>
+          <a href="<?php echo site_url('add_new_part/'); ?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2">part baru</a>
         </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
       </div>
     </section><style>.u-dialog-section-6 .u-dialog-1 {
@@ -145,8 +145,8 @@
 }</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-middle u-dialog-section-7" id="sec-b688">
       <div class="u-align-center u-container-style u-dialog u-palette-1-light-2 u-dialog-1">
         <div class="u-container-layout u-container-layout-1">
-          <a href="./asset/laporan-part-masuk.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">part masuk</a>
-          <a href="./asset/laporan-part-keluar.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2">part keluar</a>
+          <a href="<?php echo site_url('laporan_part_masuk/'); ?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">part masuk</a>
+          <a href="<?php echo site_url('laporan_part_keluar/'); ?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2">part keluar</a>
         </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
       </div>
     </section><style>.u-dialog-section-7 .u-dialog-1 {

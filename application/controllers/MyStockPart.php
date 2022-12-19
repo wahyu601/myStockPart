@@ -5,6 +5,7 @@ class MyStockPart extends CI_Controller{
     public function __contruct(){
         parent::__contruct();
         $this->load->database();
+        $this->load->helper('url');
     }
 
     public function index()
@@ -45,6 +46,15 @@ class MyStockPart extends CI_Controller{
         $this->load->view('part_keluar');
     }
 
+    public function laporan_part_masuk()
+    {
+        $this->load->view('laporan_part_masuk');
+    }
+
+    public function laporan_part_keluar()
+    {
+        $this->load->view('laporan_part_keluar');
+    }
 }
 
 ?>
