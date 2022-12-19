@@ -24,6 +24,11 @@ class MyStockPart extends CI_Controller{
 
     }
 
+    public function add_new_part()
+    {
+        $this->load->view('add_new_part');
+    }
+
 }
 
 ?>

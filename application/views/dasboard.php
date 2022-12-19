@@ -64,9 +64,9 @@
       <img class="u-image u-image-default u-preserve-proportions u-image-3" src="./asset/images/Group29.png" alt="" data-image-width="224" data-image-height="167">
       <img class="u-image u-image-default u-preserve-proportions u-image-4" src="./asset/images/Group28.png" alt="" data-image-width="224" data-image-height="172">
       <img class="u-image u-image-default u-preserve-proportions u-image-5" src="./asset/images/Group31.png" alt="" data-image-width="224" data-image-height="172">
-      <a href="./asset/#sec-147c" class="u-border-2 u-border-grey-75 u-btn u-button-style u-dialog-link u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-2">tambah stok</a>
+      <a href="#sec-147c" class="u-border-2 u-border-grey-75 u-btn u-button-style u-dialog-link u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-2">tambah stok</a>
       <a href="./asset/Cek_persediaan.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-3">cek persediaan</a>
-      <a href="./asset/#sec-b688" class="u-border-2 u-border-grey-75 u-btn u-button-style u-dialog-link u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-4">laporan</a>
+      <a href="#sec-b688" class="u-border-2 u-border-grey-75 u-btn u-button-style u-dialog-link u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-4">laporan</a>
       <a href="./asset/Input_part_keluar.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-grey-10 u-hover-palette-5-light-1 u-text-palette-1-base u-btn-5">part keluar</a>
     </section>
     

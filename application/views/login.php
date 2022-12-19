@@ -14,6 +14,9 @@
     
     
     
+    
+    
+    
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -26,39 +29,36 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-palette-1-base u-header" id="sec-3f2e"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="#" class="u-image u-logo u-image-1" data-image-width="260" data-image-height="38">
+        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="260" data-image-height="38">
           <img src="./asset/images/MyStockPart.png" class="u-logo-image u-logo-image-1">
         </a>
       </div></header>
     <section class="u-clearfix u-palette-1-light-1 u-section-1" id="sec-71dc">
       <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
-    <section class="u-clearfix u-white u-section-2" id="sec-f553">
-      <div class="u-border-3 u-border-palette-1-base u-container-style u-group u-group-1">
-        <div class="u-container-layout u-container-layout-1">
-          <div class="u-form u-login-control u-form-1">
-            <form action="#" method="post" class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 0px;">
-              <div class="u-form-group u-form-name">
-                <label for="username-a30d" class="u-label u-text-grey-25 u-label-1">Username *</label>
-                <input type="text" placeholder="Enter your Username" id="username-a30d" name="username" class="u-border-2 u-border-grey-10 u-grey-10 u-input u-input-rectangle u-input-1" required="">
-              </div>
-              <div class="u-form-group u-form-password">
-                <label for="password-a30d" class="u-label u-text-grey-25 u-label-2">Password *</label>
-                <input type="password" placeholder="Enter your Password" id="password-a30d" name="password" class="u-border-2 u-border-grey-10 u-grey-10 u-input u-input-rectangle u-input-2" required="">
-              </div>
-              <div class="u-form-checkbox u-form-group">
-                <input type="checkbox" id="checkbox-a30d" name="remember" value="On">
-                <label for="checkbox-a30d" class="u-label u-text-grey-25 u-label-3">Remember me</label>
-              </div>
-              <div class="u-align-left u-form-group u-form-submit">
-                <a href="#" class="u-btn u-btn-submit u-button-style u-btn-1">Login</a>
-                <input type="submit" value="submit" class="u-form-control-hidden">
-              </div>
-              <input type="hidden" value="" name="recaptchaResponse">
-            </form>
-          </div>
+    <section class="u-clearfix u-image u-section-2" id="sec-f553" data-image-width="1280" data-image-height="720">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-form u-form-1">
+          <form action="www.google.com" class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;" redirect-address="Dasboard.html" redirect="true">
+            <div class="u-form-group u-form-name u-label-top">
+              <label for="name-05c6" class="u-label u-label-1">USERNAME</label>
+              <input type="text" placeholder="MASUKKAN USERNAME" id="name-05c6" name="username" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-form-email u-form-group u-label-top">
+              <label for="email-05c6" class="u-label u-label-2">PASSWORD</label>
+              <input type="password" placeholder="MASUKKAN PASSWORD" id="" name="password" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-align-center u-form-group u-form-submit u-label-top">
+              <input type="submit" value="submit" class="u-form-control-hidden">
+              <a href="#" class="u-btn u-btn-submit u-button-style u-btn-1">LOGIN</a>
+            </div>
+            <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+            <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+            <input type="hidden" value="" name="recaptchaResponse">
+          </form>
         </div>
       </div>
-      <img class="u-image u-image-default u-image-1" src="./asset/images/undraw_order_delivered_re_v4ab1.png" alt="" data-image-width="503" data-image-height="396">
     </section>
+    
+  
 </body></html>
