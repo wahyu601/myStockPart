@@ -77,7 +77,7 @@
   <section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-middle u-dialog-section-6" id="sec-147c">
       <div class="u-align-center u-container-style u-dialog u-palette-1-light-2 u-dialog-1">
         <div class="u-container-layout u-container-layout-1">
-          <a href="<?php echo site_url('add_new_part/'); ?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">part lama</a>
+          <a href="<?php echo site_url('add_old_part/'); ?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">part lama</a>
           <a href="<?php echo site_url('add_new_part/'); ?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2">part baru</a>
         </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
       </div>

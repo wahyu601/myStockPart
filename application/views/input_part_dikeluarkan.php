@@ -116,7 +116,7 @@
           </tbody>
         </table>
       </div>
-      <a href="../asset/Dasboard.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-light-1 u-palette-1-base u-text-grey-10 u-btn-2">BATAL</a>
+      <a href="<?php echo site_url('/'); ?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-light-1 u-palette-1-base u-text-grey-10 u-btn-2">BATAL</a>
       <a href="https://nicepage.com/web-design" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-3">REKAM</a>
     </section>
     

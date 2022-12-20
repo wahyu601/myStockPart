@@ -130,7 +130,7 @@
           </div>
         </div>
       </div>
-      <a href="../asset/Dasboard.html" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-3">KEMBALI</a>
+      <a href="<?php echo site_url('/');?>" class="u-border-2 u-border-grey-75 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-3">KEMBALI</a>
     </section>
     
   
